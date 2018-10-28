@@ -78,7 +78,8 @@
       </table>
 
       <!-- ŁĄCZENIE KOLUMN -->
-
+      <hr>
+      <h3>Łączenie Kolumn</h3>
       <table>
         <tr>
           <th></th>
@@ -103,6 +104,52 @@
           <td>KSW</td>
           <td>Zapasy</td>
           <td>Zapasy</td>
+          <!-- Można też <td colspan="2">zapasy</td> -->
+        </tr>
+      </table>
+      <br>
+      <hr>
+      <br>
+      <h3>Łączenie wierszy</h3>
+      <table>
+        <tr>
+          <th></th>
+          <th>Poniedziałek</th>
+          <th>Wtorek</th>
+          <th>Środa</th>
+        </tr>
+        <tr>
+          <th scope="row">17:00</th>
+          <td colspan="2">Zapasy</td>
+          <td rowspan="2"> Boks </td>
+        </tr>
+        <tr>
+          <th scope="row">18:00</th>
+          <td> Judo</td>
+          <td> Kolarstwo</td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th colspan="5"> Nagłówek Kolumny </th>
+        </tr>
+        <tr>
+          <th scope="row" rowspan="5"> Nagłówek Wierszy</th>
+
+          <td colspan="2"> Koń rafał</td>
+          <td> <img src="img/hidethepainharold.jpg" width="60" height="40" alt="Lol nope"></td>
+          <td> <img src="img/AsgardianFlag.jpg" width="60" height="40"></td>
+
+        </tr><tr>
+
+          <td><img src="img/polska-mini.jpg" width="60" height="40"> </td>
+          <td colspan="3">Problem solved ( ͡° ͜ʖ ͡°)</td>
+
+        </tr><tr>
+
+          <td colspan="4"> AWWW YEAH!</td>
+
         </tr>
       </table>
     </body>
