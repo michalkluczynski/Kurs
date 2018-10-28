@@ -36,5 +36,42 @@
         <input type="submit" value="Oddaj głos">
       </form>
       </fieldset>
+      <hr>
+      <hr>
+      <form>
+        <label>Imię</label>
+        <input type="text"
+               name="imie"
+               id="imie"
+               pattern="[a-z]{2,15}"
+               placeholder="Imie"
+               required><br>
+        <label>Nazwisko</label>
+        <input type="text"
+               name="nazwisko"
+               placeholder="Nazwisko"
+               id="nazwisko"
+               required><br>
+        <label>Wiek</label>
+        <input type="number"
+               name="wiek"
+               placeholder="Wiek"
+               id="wiek"
+               required><br>
+        <label>Mail</label>
+        <input type="email"
+               name="mail"
+               placeholder="Example@xx.xx"
+               id="mail"
+               required><br>
+        Narodowość:<br>
+        <input type="radio" name="kraj" value="Polska">Polska<br>
+        <input type="radio" name="kraj" value="Niemcy">Niemcy<br>
+        <input type="radio" name="kraj" value="Wakanda">Wakanda<br>
+        <input type="radio" name="kraj" value="Podlasie">Podlasie<br>
+        <input type="submit" name="przycisk" value="Zatwierdź"><br>
+
+      </form>
+
   </body>
 </html>

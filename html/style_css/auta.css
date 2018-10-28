@@ -1,0 +1,15 @@
+body{
+background-color: white;
+  margin-left: 100px;
+}
+
+#ferrari  {
+  list-style-image: url(../img/580b585b2edbce24c47b2c52.png);
+
+}
+#bmw {
+  list-style-image: url(../img/bmw-flat-png-bmw-flat-logo-300.png);
+}
+#audi {
+  list-style-image: url(../img/580b585b2edbce24c47b2c18.png)
+}
