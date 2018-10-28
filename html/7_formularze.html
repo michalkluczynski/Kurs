@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style_css/style_form.css">
+        <title>Formularze</title>
+    </head>
+    <body>
+      <!--method post / get (domyślnie) -->
+      <!-- method post do wysyłania danych-->
+      <!-- method get do pobierania danych-->
+      <form method="post">
+        <label for="Login">Login
+          <input type="text" name="Login"><br>
+        </label>
+        <label> Hasło </label>
+        <input type="password" name="pass"><br>
+        <input type="submit" value="Wyślij">
+      </form>
+        <hr>
+        <hr>
+      <h3>WYBORY 2018</h3>
+      <fieldset>
+      <form id="glosowanie" action="glosowanie.html">
+        <label for="nick">Nick
+          <input type="text" name="nick"><br>
+        </label>
+        <input type="radio" name="kandydat" value="Klu"><label for="radio">Kluczyński
+        </label><br>
+        <input type="radio" name="kandydat" value="Lew"><label for="radio">Lewandowski
+        </label><br>
+        <input type="radio" name="kandydat" value="Szy"><label for="radio">Szyper
+        </label><br>
+        <input type="radio" name="kandydat" value="Man"><label for="radio">Manikowski
+        </label><br>
+        <input type="submit" value="Oddaj głos">
+      </form>
+      </fieldset>
+  </body>
+</html>
