@@ -2,8 +2,46 @@ body{
   background-color: rgb(249, 253, 45);
   color: red;
 }
-
+/*------------------------------------------------------------*/
 p{
   color: black;
-
+}
+/*------------------------------------------------------------*/
+/*kolor hiperłącza nieklikniętego*/
+a:link{
+ color: blue;
+}
+/*------------------------------------------------------------*/
+/*kolor hiperłącza klikniętego*/
+a:visited{
+  color: rgb(13, 128, 0,);
+}
+/*------------------------------------------------------------*/
+/*kolor hiperłącza po najechaniu kursorem*/
+a:hover{
+  color: yellow;
+  cursor: crosshair;
+}
+/*------------------------------------------------------------*/
+/*kolor hiperłącza podczas przytrzymania kursoru*/
+a:active{
+  color: green;
+  background-color: hotpink; /*podświetlenie tekstu*/
+}
+/*-------------------------------------------------------------*/
+h1{
+  color: red;
+  font-family: Arial Black; /*zdefiniowanie czcionki*/
+}
+/*-------------------------------------------------------------*/
+h4{
+color: black;
+font-family: Comic Sans MS;
+}
+/*------------------------------------------------------------*/
+/*Jeżeli tekst po elemencie H1 jest hiperłączem
+  jego kolor po najechaniu kursorem zmienia się
+  na zdefiniowany*/
+h1 + p{
+  color: white;
 }
