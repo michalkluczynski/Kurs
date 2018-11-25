@@ -1,0 +1,78 @@
+body{
+  background-color: green;
+}
+/*-------------------------------------------*/
+h1{
+  color: White;
+  text-align: center;
+  font-family: Alex Brush;
+  font-size: 100px;
+}
+/*-------------------------------------------*/
+#georgia{
+  font-family: Georgia;
+}
+/*-------------------------------------------*/
+#Times{
+  font-family: Times;
+}
+/*-------------------------------------------*/
+#Times_New_Roman {
+  font-family: "Times New Roman";
+}
+/*-------------------------------------------*/
+#helvetica {
+  font-family: Helvetica;
+}
+/*-------------------------------------------*/
+#verdana {
+  font-family: Verdana;
+}
+/*-------------------------------------------*/
+#Arial {
+  font-family: Arial;
+}
+/*-------------------------------------------*/
+@font-face{
+  font-family: Komoda;
+  src: url(Fonty/Komoda.otf);
+}
+/*-------------------------------------------*/
+#Komoda {
+  text-align: center;
+  font-family: Komoda;
+  font-size: 100px;
+}
+/*-------------------------------------------*/
+#Normalna{
+  font-weight: normal;
+}
+/*-------------------------------------------*/
+#Pogrubiona{
+  font-weight: bold;
+}
+/*-------------------------------------------*/
+#normalna {
+  font-style: normal;
+}
+/*-------------------------------------------*/
+#Kursywa{
+  font-style: italic;
+}
+/*-------------------------------------------*/
+#Pochylona{
+  font-style: oblique;
+}
+/*-------------------------------------------*/
+#Przekreślenie{
+  text-decoration: line-through;
+}
+/*-------------------------------------------*/
+#Podkreślenie{
+  text-decoration: underline;
+}
+/*-------------------------------------------*/
+#Nad{
+  text-decoration: overline;
+}
+/*-------------------------------------------*/

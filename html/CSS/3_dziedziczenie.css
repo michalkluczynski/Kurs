@@ -1,6 +1,7 @@
 body{
-  background-color: teal;
-  color: yellow;
+  /*background-color: rgb(237, 28, 3);*/
+  background-color: #517E3B;
+  color: Blue;
   font-family: fantasy;
   padding: 200px;
 
@@ -8,5 +9,19 @@ body{
 /*-----------------------------------------------*/
 .Strona{
   border: 1px solid black;
-  background-color:
+  background-color: rgb(166, 255, 0);
+}
+/*-----------------------------------------------*/
+h1{
+  background-color: #123456;
+  color: darkcyan;
+}
+/*-----------------------------------------------*/
+h2{
+  background-color: #654321;
+  color: #ee66ff;
+}
+/*-----------------------------------------------*/
+.czesci{
+  background-color: red;
 }
