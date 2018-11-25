@@ -76,3 +76,21 @@ h1{
   text-decoration: overline;
 }
 /*-------------------------------------------*/
+#Odległości{
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+/*-------------------------------------------*/
+#Lewy{
+  text-align: left;
+}
+/*-------------------------------------------*/
+#Prawy{
+  text-align: right;
+}
+/*-------------------------------------------*/
+#Góra{
+  background-color: teal;
+  text-align: 
+}
