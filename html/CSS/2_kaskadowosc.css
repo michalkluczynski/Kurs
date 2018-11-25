@@ -8,6 +8,7 @@ h1{
 /*-------------------------------------------------------*/
 p{
   color: gray;
+  font-size: 75%;
 }
 /*-------------------------------------------------------*/
 *{
@@ -28,3 +29,23 @@ b{
   font-family: Impact;
   color: Black;
 }
+/*-------------------------------------------------------*/
+/*p b{} jest bardziej szczegółowe. Dotyczy każdego
+  elementu b ale tylko w elementach p*/
+p b{
+  color: magenta !important; /* !important -em oznaczamy
+                                element posiadający
+                                priorytet */
+}
+/*-------------------------------------------------------*/
+/*W normalnych warunkach ostatni w kolejności
+  element p b{} posiada priorytet*/
+p b{
+  color: brown;
+}
+/*-------------------------------------------------------*/
+/*Działa tylko na element p w którym jest #opis*/
+p#opis {
+  font-size: 100%;
+}
+/*-------------------------------------------------------*/
