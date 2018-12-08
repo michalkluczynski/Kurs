@@ -139,3 +139,7 @@ input.text:focus{
   color: white;
 
 }
+/*------------------------------------------------*/
+p.abc, p.def{
+  background-color: red;
+}
