@@ -93,5 +93,6 @@ h1{
 #Góra{
   background-color: teal;
   height: 500px;
-  text-align: inherit;
+  vertical-align: bottom;
+
 }

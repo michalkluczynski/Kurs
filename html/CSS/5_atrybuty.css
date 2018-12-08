@@ -1,3 +1,141 @@
 body{
   background-color: aliceblue;
 }
+/*------------------------------------------------*/
+table, td, tr {
+  border: solid 2px black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+/*------------------------------------------------*/
+#jan{
+  vertical-align: text-top;
+}
+/*------------------------------------------------*/
+#anna{
+  vertical-align: text-bottom;
+}
+/*------------------------------------------------*/
+#pawel{
+  vertical-align: baseline;
+}
+/*------------------------------------------------*/
+#frank{
+  height: 10px;
+  width: 16px;
+}
+/*------------------------------------------------*/
+#asgard{
+  height: 10px;
+  width: 16px;
+}
+/*------------------------------------------------*/
+#minipolska{
+  height: 10px;
+  width: 16px;
+}
+/*------------------------------------------------*/
+.top{
+  vertical-align: text-top;
+}
+/*------------------------------------------------*/
+.bottom{
+  vertical-align: bottom;
+}
+/*------------------------------------------------*/
+.baseline{
+  vertical-align: baseline;
+}
+/*------------------------------------------------*/
+#wciecie{
+  text-indent: 40px;
+  background-color: rgb(196, 0, 255);
+}
+/*------------------------------------------------*/
+#wciecie2{
+  text-indent: 50%;
+  background-color: rgb(0, 225, 250);
+}
+/*------------------------------------------------*/
+.jeden{
+  color: aliceblue;
+  background-color: #55ee55;
+  text-shadow: 2px 2px 1px #000000;
+/*
+     2px                     2px                   1px
+wielkość przesunięcia  wielkość przesunięcia    rozmazanie
+cienia w poziomie      cienia w pionie            cienia
+
+*/
+}
+/*------------------------------------------------*/
+.dwa{
+  color: red;
+  background-color: #55ee55;
+  text-shadow: 10px 10px 1px #000000;
+}
+/*------------------------------------------------*/
+.trzy{
+  color: teal;
+  background-color: #55ee55;
+  text-shadow: -5px 5px #000000;
+}
+/*------------------------------------------------*/
+.cztery{
+  color: red;
+  background-color: yellow;
+  text-shadow: 0px 0px 1px #000000;
+}
+/*------------------------------------------------*/
+.piec{
+  color: red;
+  background-color: red;
+  text-shadow: 0px 0px 1px #000000;
+}
+/*------------------------------------------------*/
+p.linia:first-letter{
+  color: red;
+}
+/*------------------------------------------------*/
+p.linia:first-line{
+  color: red;
+  font-weight: bold;
+}
+/*------------------------------------------------*/
+a:hover{
+  color: green;
+  cursor: crosshair;
+  text-shadow: 2px 2px 2px #000000;
+}
+/*------------------------------------------------*/
+a:visited{
+  color: blue;
+}
+/*------------------------------------------------*/
+input{
+  background-color: gray;
+  padding: 50px 30px 50px 10px
+  /*
+padding ->
+margines     50px           30px           50px           10px
+wewnętrzny   Góra          Prawy          Dół            Lewy
+  */
+}
+/*------------------------------------------------*/
+input.submit{
+  background-color: Black;
+  color: White;
+  padding: 5px 30px 5px 30px
+}
+/*------------------------------------------------*/
+input.submit:hover{
+  background-color: Green;
+  color: Blue;
+  text-shadow: 5px 5px 5px #FFFFFF
+}
+/*------------------------------------------------*/
+input.text:focus{
+  background-color: teal;
+  color: white;
+
+}
