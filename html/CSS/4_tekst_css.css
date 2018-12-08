@@ -92,5 +92,6 @@ h1{
 /*-------------------------------------------*/
 #Góra{
   background-color: teal;
-  text-align: 
+  height: 500px;
+  text-align: inherit;
 }
