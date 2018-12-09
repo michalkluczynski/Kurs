@@ -117,7 +117,7 @@ input{
   padding: 50px 30px 50px 10px
   /*
 padding ->
-margines     50px           30px           50px           10px
+margines    + 50px           30px           50px           10px
 wewnętrzny   Góra          Prawy          Dół            Lewy
   */
 }

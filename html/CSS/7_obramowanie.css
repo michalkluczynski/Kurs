@@ -1,0 +1,50 @@
+body{
+  background-color: teal;
+}
+/*-----------------------------------------------------*/
+p.a{
+  border-style: double;
+  border-width: 10px;
+  border-color: red;
+}
+/*-----------------------------------------------------*/
+p{
+  border: solid;
+}
+/*-----------------------------------------------------*/
+p.b{
+  border-style: ridge;
+  border-width: thick;
+  border-color: green;
+}
+/*-----------------------------------------------------*/
+p.c{
+  border-style: dashed;
+  border-width: 20px;
+  border-color: black;
+}
+/*-----------------------------------------------------*/
+p.d{
+border-style: dotted;
+border-right-width: thick;
+border-bottom-width: medium;
+border-left-width: 10px;
+}
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+li{
+  display: inline-block;
+  margin-right: 50px;
+}
+/*-----------------------------------------------------*/
+li.gatunek{
+  display: none;
+}
+/*-----------------------------------------------------*/
+li.ukryty{
+  visibility: hidden;
+}
+/*-----------------------------------------------------*/
+#autor{
+
+}
