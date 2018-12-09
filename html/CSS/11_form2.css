@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(222, 252, 221);
+}
+/*--------------------------------------*/
+#guzik{
+  padding-right: 0px;
+  padding-left: 90px;
+}
+/*--------------------------------------*/
+#linia td{
+  border: 2px solid red;
+
+}
